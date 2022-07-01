@@ -74,7 +74,7 @@ function Video(){
   const obj = [
     {
      
-      img:"https://www.bigtalkproductions.com/wp-content/uploads/2017/02/2017-02-01-Baby-Driver.jpg",
+      img:"https://cdna.artstation.com/p/top_row_items/images/000/002/358/default/c18cbe48ad11c7ed.jpg?1656005899",
       name: "Email",
       years:2021,
     },
@@ -91,7 +91,7 @@ function Video(){
     },
     {
      
-      img:"https://avatars.mds.yandex.net/i?id=496bb3e651cc93be039ebe903b62e84d-6579542-images-thumbs&n=13",
+      img:"https://cdna.artstation.com/p/top_row_items/images/000/002/358/default/c18cbe48ad11c7ed.jpg?1656005899",
       name: "Email",
       years:2021,
     },
