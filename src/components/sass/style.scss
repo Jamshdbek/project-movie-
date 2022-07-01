@@ -1,0 +1,112 @@
+@import './porometr';
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+    color:$color-while;
+    background-color:$backraud-color;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    .login{
+        text-align: center;
+        width: 70px;
+        height:30px;
+        background-color: hsl(201, 77%, 52%);
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 5px;
+        color: $color-while;
+        margin: left;
+        align-items: center;
+    }
+
+}
+.links{
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+    color: $color-while;
+    background-color: $backraud-color;
+    border: groove  0.1px #898984;
+}
+
+.header_video{
+    width: 100%;
+    height: 40vh;
+    background-color: $color-ref;
+    display: flex;
+    gap:10px;
+    padding:5px;
+    .ferst{
+        width: 30vh;
+        height: 33vh;
+        border-radius: 10px;
+        background-color: red;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header_video {
+    //   background-color: lightblue;
+    display: flex;
+    gap: 3px;
+    
+    }
+  }
+  
+
+.resorch{
+    width: 100%;
+    height: 10vh;
+    background-color: $backraud-color;
+}
+
+// videosss
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: $backraud-color;
+    padding: 5PX;
+    // background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+
+    // row-gap: 5px;
+    // grid-template-columns: auto auto auto auto ;
+    .cards{
+        width: 40vh;
+        height: 40vh;
+        background-color: $backraud-color;
+        border: solid 2px black;
+        
+        color:$color-while;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        h3{
+            position: absolute;
+            // margin-top:-500px ;
+            margin-top: 150px ;
+            padding-left: 20px;
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+    }
+   
+}
