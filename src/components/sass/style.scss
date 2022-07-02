@@ -11,7 +11,7 @@ header{
     height: 7vh;
     color:$color-while;
     background-color:$backraud-color;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     display: flex;
     .login{
@@ -59,7 +59,6 @@ header{
 
 @media only screen and (max-width: 600px) {
     .header_video {
-    //   background-color: lightblue;
     display: flex;
     gap: 3px;
     
@@ -90,7 +89,7 @@ header{
         height: 40vh;
         background-color: $backraud-color;
         border: solid 2px black;
-        
+        border-radius: 20px;
         color:$color-while;
         font-family: Arial, Helvetica, sans-serif;
         font-size: large;
@@ -104,9 +103,19 @@ header{
         img{
             width: 100%;
             height: 100%;
+            border-radius: 10px;
             
         }
         
+    }
+    .icon{
+       
+        img{
+            z-index: 1;
+            width: 100px;
+            text-decoration: none;
+        }
+    font-family: Arial, Helvetica, sans-serif;
     }
    
 }

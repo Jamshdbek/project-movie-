@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./sass/style.scss";
 import Video from "./Video";
-
 function Home() {
   let navigate = useNavigate();
 
