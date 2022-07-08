@@ -1,0 +1,97 @@
+@import './porometr';
+
+
+.resorch {
+    width: 100%;
+    height: 20vh;
+    background-color: $backraud-color;
+    display: flex;
+    gap: 10px;
+   padding: 20px;
+    
+    .bar_sorch {
+        width: 200px;
+        height: 80px;
+        background-color: #343333;
+        border-radius: 5px;
+        margin-top: 10px;
+
+    }
+    .exelnt {
+        margin-top: 15px;
+        width: 180px;
+        height:70px;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        background-color: hsla(269, 77%, 55%, 0.633);
+        border: solid 4px rgb(159, 56, 237);
+        border-radius: 5px;
+        color: $color-while;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-shrink: 1 !important;
+       #cop{
+        font-size: 20px;
+       }
+
+    }
+
+    .over_chus {
+        padding-left: 30px;
+        width: 100%;
+        height: 100px;
+        background-color: #171717;
+        align-items: center;
+        display: flex;
+        position: relative;
+        row-gap: 10px;
+        gap: 10px;
+        user-select: none;
+        touch-action: pan-y;
+        -webkit-tap-highlight-color: transparent;
+
+        
+
+
+
+        .fenezi,
+        .marvel,
+        .going {
+            width: 150px;
+            height: 70px;
+            background-image:url("https://media.istockphoto.com/photos/side-view-asian-chinese-active-senior-man-and-his-granddaughter-enjoy-picture-id1334663168?b=1&k=20&m=1334663168&s=170667a&w=0&h=1qm2C9C-lg7UQOMc9NUKOEvESnWODJ7ZQrmJgU0Oi-0=");
+            background-size: cover;
+            
+            border-radius: 5px;
+            text-align: center;
+            font-size: 24px;
+            color: $color-while;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            font-weight: 200;
+            color: #fff;
+
+        img{
+            opacity: 0.5;
+
+        }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .resorch {
+        width: 100%;
+
+        .exelnt {
+            width: 150px;
+        }
+
+        .over_chus {
+            display: none;
+            background-color: red;
+        }
+    }
+}
