@@ -2,7 +2,7 @@ import React from 'react'
 
 function NotFind() {
   return (
-    <div>NotFinasdfasdfasdfasdfd</div>
+    <div>404</div>
   )
 }
 

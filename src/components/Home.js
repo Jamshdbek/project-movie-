@@ -14,8 +14,8 @@ function Home() {
         </div>
       </div>
       <div className="header_video">
-        <div className="ferst" onClick={() => navigate("ferst")}> <img src="https://main-cdn.sbermegamarket.ru/hlr-system/-6/39/89/38/79/10/2/600002402423b0.jpeg" alt="" /></div>
-        <div className="ferst" onClick={() => navigate("secont")}> <img src="https://cdna.artstation.com/p/top_row_items/images/000/002/358/default/c18cbe48ad11c7ed.jpg?1656005899" alt="" /> </div>
+        <div className="ferst" onClick={() => navigate("ferst")}> <img src="" alt="" /></div>
+        <div className="ferst" onClick={() => navigate("secont")}> <img src="" alt="" /> </div>
         <div className="ferst" onClick={() => navigate("there")}><img src="" alt="" /></div>
         <div className="ferst" onClick={() => navigate("five")}></div>
         <div className="ferst" onClick={() => navigate("seven")}></div>
