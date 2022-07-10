@@ -13,7 +13,7 @@ function Layout() {
                 src="https://antlere.com/wp-content/uploads/2019/05/cx.png"
                 alt="404"
               />
-              <span id="icon_text">ViowComn</span>
+              <span id="icon_text">Viuw</span>
             </div>
           </Link>
           <form>
