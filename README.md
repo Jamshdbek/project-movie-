@@ -1,5 +1,5 @@
 ###link: https://viuw.netlify.app/
-@link website :+1: This PR looks great - it's ready to merge! :shipit: https://viuw.netlify.app/
+@link website :+3:  https://viuw.netlify.app/
 
 # Getting Started with Create React App
 
